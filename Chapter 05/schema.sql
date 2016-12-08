@@ -1,0 +1,1 @@
+CREATE TABLE IF NOT EXISTS main.wineries(    id integer primary key autoincrement not null,    name varchar,    country varchar,    region varchar,    volume float,    uom varchar)CREATE TABLE IF NOT EXISTS main.wine(    id integer primary key autoincrement not null,    name varchar,    rating integer    producer_id integer foreign key references wineries(id))

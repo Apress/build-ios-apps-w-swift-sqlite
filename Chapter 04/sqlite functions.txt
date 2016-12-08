@@ -1,0 +1,1 @@
+SELECT date(‘now’)SELECT date(‘now’, ‘YYYY-MM-DD’)SELECT date(‘now’, ‘MMM/dd/YYYY’, ‘-1 day’)SELECT date(‘now’, ‘MM-dd-yyyy’, ‘-1month’, ‘+7 days’, ‘+1 year’)

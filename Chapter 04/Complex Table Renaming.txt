@@ -1,0 +1,1 @@
+SELECT sql from main.sqlite_masterSELECT sql FROM main.sqlite_master WHERE type = ‘view’ or type = ‘trigger’PRAGMA foreign_keys=OFFDROP command as follows:DROP viewnameDROP triggernameDROP indexnamePRAGMA foreign_keys=ONUPDATE main.sqlite_masterSET sql = ‘ new creatw table query’WHERE type = ‘table’AND name = ‘your table name’

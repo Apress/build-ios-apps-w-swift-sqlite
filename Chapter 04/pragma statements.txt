@@ -1,0 +1,7 @@
+let pragma:String = “PRAGMA schema.index_list( table_name )”If(sqlite3_open(db.path, db) == SQLITE_OK){If(sqlite3_prepare_v2(db, pragma.cString (String.encoding.utf8)!, -1, &sqlStatement, nil) == Enums.SQLiteStatusCode.ok.rawValue}{}}Foreign_key_checkPRAGMA schema.foreign_key_check; PRAGMA schema.foreign_key_check(table-name);Foreign_key_listPRAGMA foreign_key_list(table-name);Integrity_checkPRAGMA schema.integrity_check; PRAGMA schema.integrity_check(N);Automatic_indexPRAGMA automatic_index; PRAGMA automatic_index = boolean
+
+Busy_timeoutPRAGMA busy_timeout; PRAGMA busy_timeout = milliseconds;
+
+Shrink_memoryPRAGMA shrink_memoryAuto-vacuumPRAGMA schema.auto_vacuum;PRAGMA schema.auto_vacuum = 0 | NONE | 1 | FULL | 2 | INCREMENTAL;
+
+

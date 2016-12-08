@@ -1,0 +1,1 @@
+CREATE TABLE Strings(Id INTEGER PRIMARY KEY,String1, //defaults to binaryString2 COLLATE BINARY,String3 COLLATE NOCASE,String4 COLLATE RTRIM)

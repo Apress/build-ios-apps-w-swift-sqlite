@@ -1,0 +1,1 @@
+import UIKitclass WineCellTableViewCell: UITableViewCell {    @IBOutlet weak var wineNameOutlet: UILabel!    @IBOutlet weak var wineryNameOutlet: UILabel!    @IBOutlet weak var wineRatingOutlet: UILabel!    @IBOutlet weak var wineImageOutlet: UIImageView!}

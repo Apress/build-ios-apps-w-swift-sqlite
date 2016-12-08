@@ -1,0 +1,1 @@
+UPDATE main.CityTemperatureSET Temperature = 1, Scale = 'C', Date = '11-15-2014'

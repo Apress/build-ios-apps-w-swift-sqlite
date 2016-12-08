@@ -1,0 +1,1 @@
+UPDATE OR REPLACE BooksToReadSET Title = 'To Kill a Mockingbird', Author = 'Harper Lee'WHERE id = 2

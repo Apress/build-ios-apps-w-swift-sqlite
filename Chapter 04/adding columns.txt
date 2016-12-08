@@ -1,0 +1,1 @@
+Alter table main.tablenameAdd column columnname datatype default value Alter table main.countryAdd column continent varchar nullAlter table main.countryAdd column population integer null

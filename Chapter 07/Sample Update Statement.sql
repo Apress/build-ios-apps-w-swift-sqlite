@@ -1,0 +1,1 @@
+UPDATE main.tableNameSET column(s) = expressionWHERE whereClauseLIMIT numer_of_rowsORDER BY column(s)

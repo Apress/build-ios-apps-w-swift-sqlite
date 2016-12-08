@@ -1,0 +1,1 @@
+DROP VIEW schema.view_nameCREATE View schema.view_name as SELECT * or list of columns FROM schema.table_name WHERE where_clause

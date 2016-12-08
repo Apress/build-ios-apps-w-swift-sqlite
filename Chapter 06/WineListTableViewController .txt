@@ -1,0 +1,5 @@
+var wineListArray = [Wine]()    let wineDAO:WineryDAO = WineryDAO()        func loadWineList(){        wineListArray = wineDAO.selectWineList()    }override func viewDidLoad() {        super.viewDidLoad()        loadWineList()      }
+
+  override func numberOfSections(in: tableView: UITableView) -> Int {return 1    }    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {        return wineListArray.count    }
+
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {        let cell = tableView.dequeueReusableCell(withIdentifier: "WineCellTableViewCell", for: indexPath) as! WineCellTableViewCell        // Configure the cell...        let wine = wineListArray[(indexPath as NSIndexPath).row]               cell.wineRatingOutlet.text = String(wine.rating)        cell.wineNameOutlet.text = wine.name        cell.wineryNameOutlet.text = wine.producer        cell.wineImageOutlet.image =  UIImage.init(data: wine.image as Data)        return cell    }

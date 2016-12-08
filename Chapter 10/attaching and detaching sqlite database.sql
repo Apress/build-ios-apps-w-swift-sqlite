@@ -1,0 +1,2 @@
+let temp1 = “ATTACH DATABASE ':memory:' AS temp1;”Let tempdb = “ATTACH DATABASE ‘’ as temp1”;sqlite3_close(&db);Let detach_db:String = “DETACH DATABASE schema_name”;
+int sqlite3_limit(sqlite3*, int id, int newVal);

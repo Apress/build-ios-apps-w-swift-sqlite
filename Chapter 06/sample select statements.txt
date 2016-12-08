@@ -1,0 +1,1 @@
+SELECT column(s) from main.tableSELECT * from main.tableSELECT * from main.table WHERE column1 = ‘some value’SELECT id, column1 FROM main.table WHERE column1 IN (SELECT col_id, column1 from main.second_table WHERE col_id=id)SELECT id, column1, (SELECT column FROM main.table )

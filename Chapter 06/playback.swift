@@ -1,0 +1,1 @@
+func playback(_ selectedAudioFile:NSData){                do {            var audioPlayer = try AVAudioPlayer(data:selectedAudioFile)            audioPlayer.delegate = self;            audioPlayer.prepareToPlay()            audioPlayer.play()        } catch let err as NSError {            print("Error: \(err.domain)")        }    }

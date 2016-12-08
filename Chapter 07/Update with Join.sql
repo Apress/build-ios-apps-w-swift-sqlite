@@ -1,0 +1,1 @@
+UPDATE CityTemperatureSET TemperatureScale = 'C'FROM CityTemperature ct INNER JOIN TempratureScales sON ct.id = s.idWHERE ct.Country = 'Canada'

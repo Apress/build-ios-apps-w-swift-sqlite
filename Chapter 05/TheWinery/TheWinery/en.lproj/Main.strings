@@ -1,0 +1,48 @@
+
+/* Class = "UILabel"; text = "Select Rating"; ObjectID = "1vO-DF-rGh"; */
+"1vO-DF-rGh.text" = "Select Rating";
+
+/* Class = "UITabBarController"; title = "The Winery"; ObjectID = "49e-Tb-3d3"; */
+"49e-Tb-3d3.title" = "The Winery";
+
+/* Class = "UIButton"; normalTitle = "Select Winery"; ObjectID = "7xL-7e-p1q"; */
+"7xL-7e-p1q.normalTitle" = "Winery";
+
+/* Class = "UILabel"; text = "Enter Region"; ObjectID = "9pd-EA-oR1"; */
+"9pd-EA-oR1.text" = "Enter Region";
+
+/* Class = "UILabel"; text = "Enter Wine Name"; ObjectID = "Ake-ER-nZu"; */
+"Ake-ER-nZu.text" = "Enter Wine Name";
+
+/* Class = "UIButton"; normalTitle = "Take Wine Photo"; ObjectID = "Lo2-Fe-Caa"; */
+"Lo2-Fe-Caa.normalTitle" = "Wine Photo";
+
+/* Class = "UILabel"; text = "Enter Country"; ObjectID = "O6P-NF-qVO"; */
+"O6P-NF-qVO.text" = "Enter Country";
+
+/* Class = "UILabel"; text = "Enter Unit of Measure"; ObjectID = "OV3-q5-EW6"; */
+"OV3-q5-EW6.text" = "Enter Unit of Measure";
+
+/* Class = "UIButton"; normalTitle = "Insert Record"; ObjectID = "QMS-sD-zo1"; */
+"QMS-sD-zo1.normalTitle" = "Save";
+
+/* Class = "UILabel"; text = "Enter Volume"; ObjectID = "QxW-Ts-kzA"; */
+"QxW-Ts-kzA.text" = "Enter Volume";
+
+/* Class = "UILabel"; text = "Enter Country"; ObjectID = "Y3D-Xd-usN"; */
+"Y3D-Xd-usN.text" = "Enter Country";
+
+/* Class = "UITabBarItem"; title = "Enter Wine"; ObjectID = "acW-dT-cKf"; */
+"acW-dT-cKf.title" = "Enter Wine";
+
+/* Class = "UITabBarItem"; title = "Winery"; ObjectID = "cPa-gy-q4n"; */
+"cPa-gy-q4n.title" = "Winery";
+
+/* Class = "UILabel"; text = "Selected Winery"; ObjectID = "cVQ-KJ-zFL"; */
+"cVQ-KJ-zFL.text" = "Selected Winery";
+
+/* Class = "UIButton"; normalTitle = "Insert Winery"; ObjectID = "rSK-aY-RDp"; */
+"rSK-aY-RDp.normalTitle" = "Insert Winery";
+
+/* Class = "UILabel"; text = "Enter Winery Name"; ObjectID = "sL1-FN-hwB"; */
+"sL1-FN-hwB.text" = "Enter Winery Name";

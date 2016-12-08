@@ -1,0 +1,1 @@
+Select c.id, c.name, r.hotel, r.checkin, r.checkout from customer as C JOIN reservations as r ON on c.id = r.custid	Select c.id, c.name, r.hotel, r.checkin, r.checkout from customer as C JOIN reservations as r WHERE c.id = r.custid

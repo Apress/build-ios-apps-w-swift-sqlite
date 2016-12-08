@@ -1,0 +1,3 @@
+DROP TABLE schema.table_nameDROP VIEW schema.view_name
+
+DROP INDEX schema.index_nameDROP TRIGGER schema.trigger_name

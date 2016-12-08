@@ -1,0 +1,1 @@
+DELETE FROM table	WHERE columnA = 'value'	AND columnB = 'value'You can also write a query as follows:	DELETE FROM table	WHERE (columnA = 'value'	AND columnB = 'value') OR	(columnC = 'value'	AND columnD = 'value')

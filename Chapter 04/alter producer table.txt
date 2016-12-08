@@ -1,0 +1,1 @@
+ALTER TABLE main.producer RENAME main.wineries

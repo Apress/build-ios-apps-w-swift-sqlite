@@ -1,0 +1,2 @@
+////  DbMgrDAO.swift//  Db Mgr////  Created by Kevin Languedoc on 2016-05-24.//  Copyright © 2016 Kevin Languedoc. All rights reserved.//import Foundationpublic class DbMgrDAO:NSObject{        override init() {        //code here    }
+    func executeQuery(query:String?){	            }}

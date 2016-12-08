@@ -1,0 +1,1 @@
+////  SQlite3Bridge.h//  Db Mgr////  Created by Kevin Languedoc on 2016-05-20.//  Copyright © 2016 Kevin Languedoc. All rights reserved.//#ifndef SQlite3Bridge_h#define SQlite3Bridge_h#endif /* SQlite3Bridge_h */// Add this code to import the sqlite3 header. The code above is supplied by the template#import <sqlite3.h>

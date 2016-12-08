@@ -1,0 +1,1 @@
+SELECT * FROM sqlite_masterorSELECT name, tbl_name FROM sqlite_master

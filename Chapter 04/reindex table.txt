@@ -1,0 +1,1 @@
+REINDEX collation-nameREINDEX main.table_nameREINDEX main.table_index_name
